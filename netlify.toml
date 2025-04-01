@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "https://docs-landing-mongodb.netlify.app/"
+status = 200
