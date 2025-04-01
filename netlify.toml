@@ -1,12 +1,12 @@
 [[redirects]]
-from = "/atlas/"
-to = "https://cloud-docs.netlify.app/"
+from = "/atlas/*"
+to = "https://cloud-docs.netlify.app/:splat"
 status = 200
 [[redirects]]
-from = "/manual/"
-to = "https://docs-mongodb-internal.netlify.app/"
+from = "/manual/*"
+to = "https://docs-mongodb-internal.netlify.app/:splat"
 status = 200
 [[redirects]]
-from = "/"
-to = "https://docs-landing-mongodb.netlify.app/"
+from = "/*"
+to = "https://docs-landing-mongodb.netlify.app/:splat"
 status = 200
