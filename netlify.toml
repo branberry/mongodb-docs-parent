@@ -18,6 +18,11 @@ from = "/drivers/node/*"
 to = "https://docs-node.netlify.app/:splat"
 status = 200
 [[redirects]]
+from = "/drivers/kotlin/*"
+to = "https://docs-kotlin.netlify.app/:splat"
+status = 200
+
+[[redirects]]
 from = "/drivers/*"
 to = "https://docs-ecosystem.netlify.app/:splat"
 status = 200
