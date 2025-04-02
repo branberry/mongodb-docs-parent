@@ -21,6 +21,10 @@ status = 200
 from = "/drivers/kotlin/*"
 to = "https://docs-kotlin.netlify.app/:splat"
 status = 200
+[[redirects]]
+from = "/drivers/php/*"
+to = "https://docs-laravel.netlify.app/:splat"
+status = 200
 
 [[redirects]]
 from = "/drivers/*"
