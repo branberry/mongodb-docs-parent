@@ -5,6 +5,9 @@ status = 200
 [[redirects]]
 from = "/manual/*"
 to = "https://docs-mongodb-internal.netlify.app/:splat"
+[[redirects]]
+from = "/s3/atlas/*"
+to = "docs-atlas-dotcomstg.s3-website.us-east-2.amazonaws.com"
 status = 200
 [[redirects]]
 from = "/drivers/java/*"
