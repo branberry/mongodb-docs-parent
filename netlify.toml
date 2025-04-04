@@ -7,7 +7,7 @@ from = "/manual/*"
 to = "https://docs-mongodb-internal.netlify.app/:splat"
 [[redirects]]
 from = "/s3/atlas/*"
-to = "docs-atlas-dotcomstg.s3-website.us-east-2.amazonaws.com"
+to = "docs-atlas-dotcomstg.s3-website.us-east-2.amazonaws.com/:splat"
 status = 200
 [[redirects]]
 from = "/drivers/java/*"
